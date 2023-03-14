@@ -100,4 +100,5 @@ def clear_console():
     os.system('clear')
 
 
-main()
+if __name__ == "__main__":
+    main()
